@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PROFIL</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #444;
+        }
+        .profile {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .profile img {
+            border-radius: 50%;
+            max-width: 150px;
+            align-self: center;
+            justify-self: center;
+        }
+        .profile-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .profile-content h2 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .profile-content p {
+            margin: 0 0 10px;
+            line-height: 1.6;
+        }
+        .social-icons {
+            margin-top: 20px;
+        }
+        .social-icons a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .social-icons a.facebook {
+            background-color: #3b5998;
+        }
+        .social-icons a.youtube {
+            background-color: #ff0000;
+        }
+        .social-icons a.instagram {
+            background-color: #e1306c;
+        }
+        .social-icons a.tiktok {
+            background-color: #000000;
+        }
+        .social-icons a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PROFIL UTVM</h1>
+        </header>
+        <div class="profile">
+            <img src="foto_profil.jpg" alt="Foto Profil">
+            <div class="profile-content">
+                <h2>UTVM</h2>
+                <p>selamat datang di halaman pribadi saya, disini kalian dapat melihat beberapa akun media sosial saya.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100056411836788&mibextid=ZbWKwL" class="facebook" target="_blank">Facebook</a>
+                    <a href="https://www.youtube.com/@si_utam" class="youtube" target="_blank">Youtube</a>
+                    <a href="https://www.instagram.com/utammmmmm_/?hl=en" class="instagram" target="_blank">Instagram</a>
+                    <a href="https://www.tiktok.com/@_utvm?_t=8o0gmKgDJbO&_r=1" class="tiktok" target="_blank">TikTok</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
